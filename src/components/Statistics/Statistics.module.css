@@ -1,0 +1,25 @@
+.resultsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 15px 20px; /* Задаем отступы вокруг текста, определяющие размер кнопки */
+
+  max-width: 300px;
+  width: 100%;
+
+  list-style: none;
+
+  color: #fff;
+  background: linear-gradient(
+    68.3deg,
+    rgb(23, 41, 77) 6.3%,
+    rgb(243, 113, 154) 90.9%
+  );
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Тень при наведении */
+  border: none;
+  border-radius: 10px;
+  font-size: 18px; /* Увеличение размера шрифта при наведении */
+}
